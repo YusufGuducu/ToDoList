@@ -1,0 +1,52 @@
+.mainBody {
+    /* background-color: rgb(106, 190, 216); */
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.col-sm-3 {
+    padding: 1%;
+}
+.close {
+    cursor: pointer;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    margin-right: 10px;
+}
+
+.activities{
+    text-align: center;
+}
+li {
+    color: black;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 5px 0;
+    padding: 10px;
+    display: inline-block;
+    font-size: large;
+    font-style:bold;
+    display: block;
+    margin: 10px 0;
+}
+
+.list-group{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+} 
+
+.form-label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    font-style:bold;
+}
